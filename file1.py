@@ -1,0 +1,5 @@
+f=open("mydata.txt","w")
+f.write("line 1:yeeeeee\n")
+f.write("line 2:gooooooooooooo\n")
+f.write("line 3:ssssssssolid\n")
+f.close()

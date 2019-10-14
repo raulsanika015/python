@@ -1,0 +1,12 @@
+from tkinter import *
+root = Tk( )
+lbl1 = Label(root, text="Press the button below to exit")
+lbl1.pack()
+lbl2 = Label(root, text="Try it")
+lbl2.pack()
+lbl3 = Label(root, text="Yes you can do it")
+lbl3.pack()
+btn = Button(root, text="Quit", command=quit)
+btn.pack() 
+root.title("A simple window")
+root.mainloop( )
